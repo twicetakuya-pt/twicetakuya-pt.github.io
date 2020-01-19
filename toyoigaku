@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./shuseitoyoigaku.css"><!-- ././toyoigaku.css →　読み込まれてたけど正しくは./toyoigaku.css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>東洋医学概論</title>
+  <meta name="description" content="東洋医学概論の3学期試験範囲について自己学習したので、みなさんと共有したいと思います。" />
+  <meta name="twitter:site" content="@twicetakuya_pt" />
+  </head>
+<body>
+  <header id="header" >
+    <div class="d-flex align-items-center header-content" > <!-- headerの中の要素を横並びにしてみよう -->
+      <h1 class="col-6">東洋医学概論</h1> <!-- h1とかにしたほうがよい　cssで文字の大きさを変えよう-->
+      <ul class="follow-me  col-6 d-flex justify-content-end">
+         <li><a href="https://twitter.com/twicetakuya_pt"></a></li><!-- <li>の←閉じタグに「/」がなかった-->
+      </ul><!-- ulの閉じタグがなかった -->
+    </div>
+  </header>
+  <div class="col-8 offset-2 formbox">
+    <div class="main-post-title contents justify-content-center align-items-center"><!-- d-flexは直下の要素が並列になる。削除すると横並びが解消される -->
+      <dl><!-- QAなどは定義リストを使うといいかも -->
+        <dt onClick="document.all.item('moji1').style.display='inline'"><!-- 要素の表示非表示を行う場合、やり方としてdisplayとdisplayがあるので違いをググって適した方を使ってみよう -->
+          <i class="fab fa-quora">腎陽虚を別名で何とよぶか？</i>
+        </dt>
+        <dd ID="moji1" style="display:none;">命門火衰</dd>
+        <dt onClick="document.all.item('moji2').style.display='inline'" >
+          <i class="fab fa-quora">腎精の不足により、男性の生殖機能が減退することを何とよぶか？</i>
+        </dt>
+        <dd ID="moji2" style="display:none;">
+          陽萎
+        </dd>
+          <dt onClick="document.all.item('moji3').style.display='inline'">
+          <i class="fab fa-quora">腎気虚の症状を５つ</i>
+        </dt>
+        <dd ID="moji3" style="display:none;">
+           <p>腰膝酸軟</p><!-- <br>で改行するより段落を表す<p>タグの方がよい -->
+           <p>遺尿、頻尿、流産、早産→腎気不固の症状</p>
+           <p>呼吸困難、息切れ、呼多吸少→腎不納気の症状</p>
+        </dd>
+        <dt onClick="document.all.item('moji4').style.display='inline'">
+           <i class="fab fa-quora">腎陰虚の症状を５つ</i>
+        </dt>
+        <dd ID="moji4" style="display:none;">
+          腰膝酸軟 五心煩熱 盗汗 潮熱 脈細数 口乾 耳鳴り 難聴
+        </dd>
+        <dt onClick="document.all.item('moji5').style.display='inline'">
+          <i class="fab fa-quora">女子胞と密接な関係のある臓腑と脈はなにか？</i>
+        </dt>
+        <dd ID="moji5" style="display:none;">
+          肝 腎 衝脈 任脈 督脈
+        </dd>
+        <dt onClick="document.all.item('moji6').style.display='inline'">
+          <i class="fab fa-quora">上焦、中焦、下焦はそれぞれ何とよぶか？</i>
+        </dt>
+        <dd ID="moji6" style="display:none;">
+          <p>上焦：霧の如し</p>
+          <p>中焦：漚の如し</p>
+          <p>下焦：瀆の如し</p>
+        </dd>
+        <dt onClick="document.all.item('moji7').style.display='inline'">
+          <i class="fab fa-quora">腎陽虚を別名で何とよぶか？</i>
+        </dt>
+        <dd ID="moji7" style="display:none;">命門火衰</dd>
+      </dl>
+    </div>
+  </div>
+</body>
+</html>
